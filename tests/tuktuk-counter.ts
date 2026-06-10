@@ -28,7 +28,7 @@ describe("tuktuk-counter", () => {
     queueAuthority,
   )[0];
 
-  xit("Initialize counter", async () => {
+  it("Initialize counter", async () => {
     const tx = await program.methods
       .initialize()
       .accountsPartial({
